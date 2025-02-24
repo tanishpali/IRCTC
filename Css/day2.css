@@ -1,0 +1,102 @@
+#para {
+    background-color: #5f5f5f ; 
+    background-color: #ff00005f;
+}
+h1{
+    color:purple;
+}
+.container {
+    display: flex;
+    background-color: black;
+}
+.conatiner{
+    align-items: center;
+    margin: 20px;
+    width:100%;
+}
+
+.card1{
+    border: 4px solid purple;
+    border: 3px solid black;
+    height:250px;
+    width:250px;
+    padding:10px;
+    border-radius:20px;
+    
+
+}
+.card1 img{
+    width:90%;
+    height:50%;
+
+
+}
+.card1 p{
+    
+}
+.card2{
+    border: 4px solid purple;
+    border: 3px solid black;
+    height:250px;
+    width:250px;
+    padding:10px;
+    border-radius:20px;
+    
+    
+}
+.card2 img{
+    width:90%;
+    height:50%;
+
+
+}
+.card3{
+    border: 4px solid purple;
+    border: 3px solid black;
+    height:250px;
+    width:250px;
+    padding:10px;
+    border-radius:20px;
+
+    
+    
+}
+.card3 img{
+    width:90%;
+    height:50%;
+
+
+}
+.card4{
+    border: 4px solid purple;
+    border: 3px solid black;
+    height:250px;
+    width:250px;
+    padding:10px;
+    border-radius:20px;
+    
+    
+}
+.card4 img{
+    width:90%;
+    height:50%;
+
+
+}
+.card5{
+    border: 4px solid purple;
+    border: 3px solid black;
+    height:250px;
+    width:250px;
+    padding:10px;
+    border-radius:20px;
+    
+    
+}
+.card5 img{
+    width:90%;
+    height:50%;
+
+
+}
+

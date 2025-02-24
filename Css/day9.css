@@ -1,0 +1,24 @@
+.box{
+    height:150px;
+    width:150px;
+    margin:150px auto;
+    border :3px solid red;
+    transition-property: height width;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+    transition-delay: 2s;
+
+}
+/* .box:hover{
+height:200px;
+width:200px;
+background-color: aqua;
+transform:rotate(60deg);} */
+
+ .box:hover{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    transform: rotate(360deg);
+    border-radius: 50%;
+ }

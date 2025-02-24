@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+/* .box{
+    border: 5px solid red;
+    height: 100px;
+    width:50%;
+
+} */
+
+#para {
+    /* font-size:25px; */
+    /* font-weight:bold;
+    font-style:italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: "Bebas Neue", serif;
+  font-weight: 400; */
+
+
+  color:red;
+  text-align: center;
+  text-decoration-line:underline;
+  text-decoration-color: black;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 10px;
+   
+  text-decoration: none;
+
+  text-decoration:underline black dashed ;
+
+/* text-transform:uppercase;
+text-transform: capitalize;
+
+text-indent:50px;
+letter-spacing:3px;
+word-spacing:15px; */
+
+line-height: 2px;
+
+}

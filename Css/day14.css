@@ -1,0 +1,32 @@
+.parent-grid{
+    border:2px solid black;
+    height:600px;
+    gap:15px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    /* align-items: center; */
+}
+.child-grid{
+    border:1px solid red;
+}
+#c-g1{
+    
+        background-color: blue;
+        /* align-self: start; */
+        /* justify-self: end; */
+        /* place-self:center start; */
+        
+        /* grid-column-start: 1;
+        grid-column-end: 3; */
+        /* short hand for column     
+     */
+     /* grid-column: 1/span 3;
+    
+     grid-row-start:1;
+     grid-row-end:4;
+     grid-row:1/3; */
+
+     /* grid-area:row-start/column-start/row-end/column-end */
+     grid-area:1/1/3/3;
+    
+}

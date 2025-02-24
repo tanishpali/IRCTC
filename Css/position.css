@@ -1,0 +1,32 @@
+.container{
+    border:3px solid black;
+    height: 600px;
+}
+
+.box{
+    border:1px solid red;
+    height: 150px;
+    width: 150px;
+    display:inline-block;
+}
+#b1{
+    position: static;
+}
+#b2{
+    position: relative;
+    top:200px;
+}
+#b3{
+    position: absolute;
+    top:250px;
+}
+#b4{
+    position:sticky;
+    right:12px;
+
+}
+#b5{
+    position:fixed;
+    right:0px;
+
+}

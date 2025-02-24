@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!-- html:5 for shortcut -->
+<html>
+    <head>
+<title>HTML Tables</title>
+
+<!-- to print icon -->
+<link rel = "icon" href="table.png"/>
+    </head>
+    <body>
+        <!-- table are made row wise -->
+        <table border="2px" 
+        cellspacing="0px" 
+        cellpadding="10px"
+        width="500px"
+        height="250px"
+        align="center">
+        <!-- Caption tag -->
+        
+        <caption>User Info </caption>
+        
+            <tr>
+                <th></th>
+                <th>A1</th>          
+                <th>A2</th>  
+                <th>A3</th>
+            </tr>
+            <tr align="center">
+                <td >B1</td>
+                <td bgcolor="red">1</td>
+                <td bgcolor=" lightgreen">3</td>
+                <td bgcolor="lightgreen">3 </td>
+            </tr>
+            <tr align="center">
+                <td>B2</td>
+                <td bgcolor="red">1</td>
+                <td bgcolor="yellow">2</td>
+                <td bgcolor="red">1</td>
+            </tr>
+            <tr align="center">
+                <td>B3</td>
+                <td  bgcolor="lightgreen">3</td>
+                <td  bgcolor="yellow">2</td>
+                <td bgcolor="yellow">2</td>
+            </tr>
+           
+        </table>
+        <hr>
+        <!-- next table -->
+         
+         <!-- colspan="2",rowspan="2" -->
+        <br>
+        <br>
+        <table
+        border="2px"
+        width="500px"
+        height="150">
+            <tr>
+                <th colspan="2">Language and Framework</th>
+                
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Django</td>
+                
+            </tr>
+            <tr>
+                <td rowspan="2">Javascript</td>
+                <td>React Js</td>
+            </tr>
+            <tr>
+                <td>Vue.js</td>
+            </tr>
+            
+            <tr>
+                <td>Ruby</td>
+                <td>Ruby on Rails</td>
+            </tr>
+
+        </table>
+        <br>
+        <br>
+
+        <!-- colgroup -->
+        <table border="2px" 
+        cellspacing="0px" 
+        cellpadding="10px">
+
+        <colgroup>
+        <col span="1" bgcolor="red"/>
+        <col />
+        <col span="1" bgcolor="yellow"/>
+    </colgroup>
+    <tr>
+     <th>Name</th>
+     <th>Age </th>
+     <th>Salary</th>
+     </tr>
+    <tr>
+        <td>Tanish</td>
+        <td>21</td>
+        <td>2300000</td>
+    </tr>
+    <tr>
+        <td>Suren</td>
+        <td>20</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Aditi</td>
+        <td>19</td>
+        <td>Nil</td>
+    </tr>
+
+    
+    </table>
+
+    </body>
+</html>

@@ -1,0 +1,46 @@
+.box{
+    border:5px solid red;
+height:200px;
+width:200px;
+border-radius:50%;
+margin: auto;
+
+    background-image: radial-gradient(red,yellow);
+    background-image: radial-gradient(ellipse,red,green,blue);
+    background-image: radial-gradient(green 5%,yellow 15%,blue 35%);
+
+    background-image: radial-gradient(closest-side at 80% 60%, red,blue,green);
+    background-image: radial-gradient(farthest-side at 70% 50%,red,blue,green);
+    
+    background-image: radial-gradient(circle at top, red,green,purple);
+    background-image: radial-gradient(circle at bottom, red,green,purple);
+    background-image: radial-gradient(circle at 50px 50px , red,green,purple);
+
+    background-image: repeating-radial-gradient(green 10%,yellow 25%, orange 35%);
+}   
+
+.box2{
+border:5px solid red;
+height:200px;
+width:200px;
+border-radius:50%;
+margin:auto;
+
+background-image:conic-gradient(red,blue,green);
+
+background-image: conic-gradient(red 60 deg, yellow 140 deg,blue 270 deg);
+background-image: conic-gradient( from 70deg, white 0deg 90deg,green 90deg 180deg,red 180deg 270deg,blue 270deg 360deg);
+background-image: conic-gradient(at 30% 70%,white 0deg 120deg,green 120deg 240deg,red 240deg 360deg);
+
+background-image: repeating-conic-gradient(red 20%,yellow 50%,green 40%);
+background-image: repeating-conic-gradient(red 0deg 5deg,yellow 5deg 10deg,green 10deg 15deg);
+
+}
+h1{
+    border:5px solid red;
+margin:10px auto;
+width:200px;
+margin:auto;
+padding:10px;
+
+}

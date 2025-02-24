@@ -1,0 +1,160 @@
+Css(Cascading Style sheet)-- Used for styling the web pages.
+
+Three ways to add css :-
+a-Inline Css
+b-Internal Css
+c- External Css
+
+Selectors:-
+1-Tag/Element Selectors
+2-Id Selector
+3-Class Selector
+4-Pseudo Selector
+5-Universal Selector
+
+syntax-
+Selector{
+    property:value;
+}
+
+Format of colors:-
+1.rgb(red,green,blue)-->0 to 255
+2.rgba(red,green,blue,alpha)-->alpha(0 to 1) decimal value(color transparency)
+if rgb(0,0,0)=black,rgb(250,250,250)=white
+alpha jitna kam utna transparent
+
+31/01
+
+3.HEX(hexadecimal colors)-00........ff(rr,bb,gg)-#rrbbgg 
+Range- 00,01,02.........09,0a............0f
+       10,11,12.........19,1a............1f
+       .
+       .
+       .
+       .
+       a0...............a9,................af
+       .
+       .
+       .
+       f0...............f9,..............ff
+4.HEXA 
+5.HSL(Hue,Saturation,Light)
+
+priority of colors(inline>)
+
+padding-Space inside border
+padding syntax-padding-top padding-right padding-bottom padding-left
+padding: padding-vertical padding-horizontal
+
+margin-Space outside border
+margin: margin-top margin-right margin-bottom margin-left
+margin:margin-vertical margin-horizontal
+
+3/02/25
+border radius= 50% for circle
+ box model-->imp que
+
+04/02/25
+Absolute value=fixed value(eg 1km)
+width = relative qunki yeh div jo ki iska parent h uske respect meh de rha h
+
+Types of Units:-
+1.relative--> 
+%(relative to parent)
+vh(viewport height) screen jo apn dekhte h
+vw(viewport width)
+em(relative to font-size)
+rem(relative to font-size of root element)
+
+2.absolute --> inch,mm,pixel,cm
+ picas(1pc=12pt)
+points(1pt=1/72 of 1in)
+
+07/02
+inline element pr height or width kaam nhi krti h or margin
+display-inline block element ko inline meh convt krne ke kiye
+display-inline-block:dono ki prop rahengi
+
+Positon Property:-
+1.Static(By Default)
+2.relative
+->position changes wrt its original position
+->original postion space maintained
+
+3.Absolute
+--> nearest positioned parent element
+->original positioned space removed
+
+4.Sticky
+5.Fixed
+
+08/02/24
+[id=# class=.]
+H.W --> matrix
+
+09/02/24
+flex ki prop tabhi use hongi jb display:flex likha ho
+by default flex ki direction row meh hoti ha
+main axis=horizontal justify ke liye
+vertical axis=cross axis
+10/02
+align content meh pure container ke respect meh shift honga
+align item meh uski height ke respect meh shift honga
+jitne bhi element hote h unki order by default 0 hoti H
+jiska order sabse kam vo sbse bhele
+
+Flex->Property to create layouts
+
+-> if we have to use flex to we have to give display:flex to parent of elements.
+
+Flex-conatiner(Parent)
+1.flex-direction
+2.flex-wrap
+3.flex-flow
+4.justify-content
+5.align-item
+6.align-content
+7.gap
+
+
+flex-items(child)
+->order
+->flex-grow
+->flex-shrink
+->flex-basis
+->flex
+->align-self
+
+11/02
+animation ke do compulsory part nam or time
+
+12/02
+animation meh pposition lagane pr ache se kam nhi krti or agar use krna h toh niche wale parameter use krne padenge
+
+vw=viewport width
+vh=viewport height
+13/02
+Steps to add git project
+1. git clone repository-link
+2. git add . (. se sari files include hongi)
+3. git commit -m "comment meh jo bhi likhna ho "
+4. git push1
+
+14/02
+justify items grip meh apne width ke resp meh position change karenga
+
+18/02
+h.w-->cdn link
+
+19/02
+ek grid ke andar max 1 row meh 12 column ban skte H
+card class has divided in 3
+1.header
+2.body
+3.footer
+
+20/02
+breadcrump
+button group
+carousel-->imp
+nav bar 

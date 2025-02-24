@@ -1,0 +1,44 @@
+.box{
+    border:1px solid black;
+    height:50px;
+    width:300px;
+    background-color: orange;
+    /* animation-name: change;
+    animation-duration: 5s;
+    animation-direction:alternate;
+    animation-iteration-count:infinite;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear; */
+    animation:change 5s linear 2s infinite alternate;
+
+}
+@keyframes change{
+    from{
+        position: relative;
+        left:0px;
+    }
+    to{
+        position:relative;
+        left:1000px;
+        background-color: green;
+        border-radius: 50%;
+        height:200px;
+
+    }
+}
+/* @keyframes change{
+    0%{
+        position:relative;
+        left:0px;
+    }
+    50%{
+        position:relative;
+        left:90vw;
+        top:0px;
+    }
+    100%{
+        left:90vw;
+        top:90vh;
+    }
+} */

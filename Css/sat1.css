@@ -1,0 +1,39 @@
+#grad {
+    border-bottom: 5px double purple;
+    width:200px;
+    text-align: center;
+    margin:25px auto;
+    background-color: wheat;
+    padding:15px;
+    border-radius:15px;
+}
+#grad:hover{
+    background-color: black;
+    color:gold;
+}
+#box{
+    border:5px solid black;
+    height:300px;
+    width: 200px;
+    margin: 30px auto;
+    background-image: linear-gradient(red,blue);
+    background-image: linear-gradient(red,yellow,blue);
+    background-image: linear-gradient(to top,red,blue,orange);
+    background-image: linear-gradient(to left,red,blue,orange);
+    background-image: linear-gradient(to right,red,blue,orange);
+    background-image: linear-gradient(to left bottom,red,blue,orange);
+    background-image: linear-gradient(to left top,red,blue,orange);
+    background-image: linear-gradient(to right top,red,blue,orange);
+    background-image: linear-gradient(red 10%,blue 35%,orange 55%);
+    background-image: linear-gradient(rgba(255,0,0,1),rgba(255,0,0,0));
+
+
+    background-image: repeating-linear-gradient(red 10%,blue 35%,orange 55%);
+
+
+
+
+
+
+
+}

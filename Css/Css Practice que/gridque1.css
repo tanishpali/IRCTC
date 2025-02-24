@@ -1,0 +1,47 @@
+.main{
+    height:500px;
+    width:600px;
+    display:grid;
+    gap:10px;
+    grid-template-columns: repeat(3,1fr);
+    margin:50px auto;
+
+}
+.box{
+    font-weight:bolder;
+    font-size:25px;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius: 10px;
+}
+#b1{
+    grid-column:1/4;
+    background-color: goldenrod;
+    opacity:70%;
+}
+#b2,#b4,#b6{
+    background-color:rgb(240,102,125);
+
+}
+#b6{
+    background-color:rgb(240,102,125);
+}
+#b3{
+    grid-area:2/2/4/3;
+    background-color: goldenrod;
+    opacity:70%;
+
+}
+#b5{
+    grid-area:3/1/5/2;
+    background-color: goldenrod;
+    opacity:70%;
+
+}
+#b7{
+    grid-area:4/2/5/4;
+    background-color: goldenrod;
+    opacity:70%;
+}
